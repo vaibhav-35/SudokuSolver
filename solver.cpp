@@ -1,6 +1,5 @@
 #include"convert.h"
 #include<chrono>
-
 #define pvec(v) for(auto elem: v) cout << elem << " ";cout << endl;
 
 using namespace std;
@@ -122,8 +121,6 @@ void printColWise(Node* root) {
         temp = temp->right;
     }
 }
-
-
 
 int main() {
     auto start = high_resolution_clock::now();

@@ -15,7 +15,6 @@ struct Node{
         col = c;
     }
 };
-
 pair<int**, int> getSudoku(string &puzzle){
     int **grid;
     fstream fin;
